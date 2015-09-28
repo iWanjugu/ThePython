@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5a6282e-2736-4b59-b2b6-676772da578b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c5a6282e-2736-4b59-b2b6-676772da578b" name="Default" comment="" />
     <ignored path="Tutorials.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -29,6 +27,7 @@
     <SUITE FILE_PATH="coverage/Tutorials$loops.coverage" NAME="loops Coverage Results" MODIFIED="1443374913985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tutorials$default_arguments.coverage" NAME="default_arguments Coverage Results" MODIFIED="1443398960043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tutorials$range_while.coverage" NAME="range_while Coverage Results" MODIFIED="1443375721769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorials$image_downloader.coverage" NAME="image_downloader Coverage Results" MODIFIED="1443406118565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tutorials$modules.coverage" NAME="modules Coverage Results" MODIFIED="1443404723392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -70,15 +69,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modules.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modules.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28670722">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="e#191#207#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_downloader.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/image_downloader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37271938">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="293.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/293.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -112,6 +130,7 @@
         <option value="$PROJECT_DIR$/dictionary.py" />
         <option value="$PROJECT_DIR$/modules.py" />
         <option value="$PROJECT_DIR$/keyword_arguments.py" />
+        <option value="$PROJECT_DIR$/image_downloader.py" />
       </list>
     </option>
   </component>
@@ -178,26 +197,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.modules">
-    <configuration default="false" name="variable_num" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/variable_num.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.image_downloader">
     <configuration default="false" name="unpacking_argumets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,6 +269,24 @@
       <module name="Tutorials" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="image_downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tutorials" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_downloader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -453,19 +474,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.variable_num" />
-      <item index="1" class="java.lang.String" itemvalue="Python.unpacking_argumets" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sets" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dictionary" />
-      <item index="4" class="java.lang.String" itemvalue="Python.modules" />
+      <item index="0" class="java.lang.String" itemvalue="Python.unpacking_argumets" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sets" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dictionary" />
+      <item index="3" class="java.lang.String" itemvalue="Python.modules" />
+      <item index="4" class="java.lang.String" itemvalue="Python.image_downloader" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.modules" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dictionary" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sets" />
-        <item index="3" class="java.lang.String" itemvalue="Python.unpacking_argumets" />
-        <item index="4" class="java.lang.String" itemvalue="Python.variable_num" />
+        <item index="0" class="java.lang.String" itemvalue="Python.image_downloader" />
+        <item index="1" class="java.lang.String" itemvalue="Python.modules" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dictionary" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sets" />
+        <item index="4" class="java.lang.String" itemvalue="Python.unpacking_argumets" />
       </list>
     </recent_temporary>
   </component>
@@ -642,10 +663,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28670722">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="e#191#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/293.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_downloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37271938">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
